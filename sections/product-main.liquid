@@ -26,6 +26,7 @@
   <div class="product-right-content w-full flex-shrink-0 pt-6 pb-8 md:w-[370px] lg:w-[472px] px-4 md:pt-12 md:px-8 md:pr-0 xl:px-12 xl:pr-0 md:sticky md:top-[110px] md:h-max md:left-0">
     {%- render 'product-info' -%}
     {%- render 'product-form', afterpay_price: section.settings.afterpay_price -%}
+    {%- render 'brauz-find-in-store' -%}
     <div class="{{ class_inner }}">
       {%- render 'product-tab', description: product.description, care_guide: section.settings.care_guide, return_content: section.settings.return -%}
     </div>
